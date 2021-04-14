@@ -48,4 +48,6 @@ function updateClockface({ days, hours, mins, secs }) {
   refs.mins.textContent = mins;
   refs.secs.textContent = secs;
 }
+
+
 timer.startTime()
